@@ -1,0 +1,45 @@
+INSERT INTO STUDENTE (MATRICOLA, NOME_STUDENTE, COGNOME_STUDENTE, PIANO_DI_STUDI, PASSWORD)
+VALUES (1001, 'Dario', 'Ferrara', 'Chimica', 'dario2024'),
+       (1002, 'Viola', 'Alterio', 'Chimica', 'viola2024'),
+       (1003, 'Gabriele', 'Viglietti', 'Informatica', 'gabriele2024'),
+       (1004, 'Giuliana', 'Rossi', 'Informatica', 'giuliana2024'),
+       (1005, 'Marzia', 'Cesarino', 'Ingegneria', 'marzia2024'),
+       (1006, 'Paolo', 'Alberti', 'Ingegneria', 'paolo2024'),
+       (1007, 'Elisabetta', 'Viteritti', 'Biologia', 'elisabetta2024'),
+       (1008, 'Carmine', 'Cimitile', 'Biologia', 'carmine2024'),
+       (1009, 'Giovanna', 'Gentile', 'Medicina', 'giovanna2024'),
+       (1010, 'Luca', 'Rotondo', 'Medicina', 'luca2024');
+
+INSERT INTO ESAME (ID_ESAME, NOME_ESAME, CFU, CORSO_DI_STUDI)
+VALUES (1, 'Chimica Generale', 9, 'Chimica'),
+       (2, 'Matematica', 6, 'Informatica'),
+       (3, 'Termodinamica', 12, 'Ingegneria'),
+       (4, 'Botanica', 6, 'Biologia'),
+       (5, 'Istologia', 12, 'Medicina');
+
+INSERT INTO APPELLO (ID_APPELLO, NOME_APPELLO, DATA_APPELLO, ID_ESAME)
+VALUES (1, 'Appello Gennaio', '2024-01-15', 1),
+       (2, 'Appello Gennaio', '2024-01-15', 2),
+       (3, 'Appello Gennaio', '2024-01-15', 3),
+       (4, 'Appello Gennaio', '2024-01-15', 4),
+       (5, 'Appello Gennaio', '2024-01-15', 5),
+       (6, 'Appello Febbraio', '2024-02-20', 1),
+       (7, 'Appello Febbraio', '2024-02-20', 2),
+       (8, 'Appello Febbraio', '2024-02-20', 3),
+       (9, 'Appello Febbraio', '2024-02-20', 4),
+       (10, 'Appello Febbraio', '2024-02-20', 5),
+       (11, 'Appello Marzo', '2024-03-18', 1),
+       (12, 'Appello Marzo', '2024-03-18', 2),
+       (13, 'Appello Marzo', '2024-03-18', 3),
+       (14, 'Appello Marzo', '2024-03-18', 4),
+       (15, 'Appello Marzo', '2024-03-18', 5),
+       (16, 'Appello Aprile', '2024-04-22', 1),
+       (17, 'Appello Aprile', '2024-04-22', 2),
+       (18, 'Appello Aprile', '2024-04-22', 3),
+       (19, 'Appello Aprile', '2024-04-22', 4),
+       (20, 'Appello Aprile', '2024-04-22', 5),
+       (21, 'Appello Maggio', '2024-05-27', 1),
+       (22, 'Appello Maggio', '2024-05-27', 2),
+       (23, 'Appello Maggio', '2024-05-27', 3),
+       (24, 'Appello Maggio', '2024-05-27', 4),
+       (25, 'Appello Maggio', '2024-05-27', 5);
