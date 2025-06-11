@@ -6,7 +6,7 @@ Studente: Esposito Francesco
 
 Professore: Umberto Scafuri
 
-Link Relazione: https://github.com/kalorzdev/RETI-DI-CALCOLATORI-UNIVERSITA
+Link Relazione: https://github.com/kalorzdev/RETI-DI-CALCOLATORI-UNIVERSITA/blob/main/Reti-di-Calcolatori-Universita--main/docs/index.md
 
 ## Traccia:
 
